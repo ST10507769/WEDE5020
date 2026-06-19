@@ -1,0 +1,14 @@
+<!-- jQuery library and files that load lightbox, -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<!-- External javascript saved in js_assets folder -->
+<script src="js_assets/myjavascript.js"></script>
+
+<!-- Lightbox2 CSS - Provides the styling for the Lightbox, Image positioning, Next/Previous 
+buttons, Close button (×), Captions. Without this file, the Lightbox may still open but will be unstyled.-->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet" />
+
+<!--Lightbox2 js function (was build using jQuery, to function it needs jQuery to be loaded 
+first). Contains the Lightbox functionality, Opening images in a popup, Closing images,
+Gallery navigation, Image animations-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Gateway Initiative</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin: 2rem 0;
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 12px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .gallery-item img:hover {
+            transform: scale(1.03);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        #lightbox {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.9);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 9999;
+        }
+
+        #lightbox img {
+            max-width: 90%;
+            max-height: 90%;
+            border-radius: 8px;
+        }
+
+        .lightbox-close {
+            position: absolute;
+            top: 20px;
+            right: 40px;
+            font-size: 3rem;
+            color: white;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .lightbox-close:hover {
+            color: #e67e22;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About us</a></li>
+                <li><a href="products.html">Services</a></li>
+                <li><a href="enquiries.html">Inquiry</a></li>
+                <li><a href="contact_us.html">Contact us</a></li>
+                <li><a href="gallary.html">Gallary</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+        <h1 class="gallery-title">Our Gallary</h1>
+
+        <div class="gallery-grid">
+            <img src="images/Gateways1.jpg.webp">
+            <img src="images/images (1).jpg">
+            <img src="images/images (2).jpg">
+            <img src="images/images.jpg">
+            <img src="images/Rob Dobi.jpg.webp">
+        </div>
+    </main>
+    <footer>
+
+        <table border="1" width="100%">
+            <tr>
+                <td align="center">
+                    <p>@ 2026 Digital Gateway Initiative</p>
+                </td>
+            </tr>
+        </table>
+
+    </footer>
+    <script src="js_assets/main.js"></script>
+    <script src="js_assets/form-validation.js"></script>
+    <script src="js_assets/accordion.js"></script>
+    <script src="js_assets/slider.js"></script>
+    <script src="js_assets/map.js"></script>
+    <script src="js_assets/slider.js"></script>
+    <script src="js_assets/search.js"></script>
+
+
+</body>
+
+</html>
