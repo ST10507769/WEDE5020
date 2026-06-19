@@ -1,0 +1,83 @@
+<DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Digital Gateway Initiative</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About us</a></li>
+                    <li><a href="products.html">Services</a></li>
+                    <li><a href="enquiries.html">Inquiry</a></li>
+                    <li><a href="contact_us.html">Contact us</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="container">
+            <div class="image-container">
+                <img src="images/image_1e3ba735.png" class="background-image" alt="Background Image"
+                    style="width: 50%; height: auto;">
+
+            </div>
+
+            <h1>You want to join our movement?</h1>
+            <p>Please fill out the form below to get in touch with us.</p>
+            <form action="submit_enquiry.php" method="post">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="interest">I am interested in:</label>
+                    <select id="interest" name="interest" required>
+                        <option value="">Select an option</option>
+                        <option value="service">Services</option>
+                        <option value="partnership">Partnership</option>
+                        <option value="donation">Donation</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="message">Your message*</label>
+                    <textarea id="message" rows="5" name="message" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-large">Submit<i class="fas fa-paper-plane"></i></button>
+            </form>
+        </main>
+
+        <footer>
+
+            <table border="1" width="100%">
+                <tr>
+                    <td align="center">
+                        <p>@ 2026 Digital Gateway Initiative</p>
+                    </td>
+                </tr>
+            </table>
+
+        </footer>
+        <script src="js_assets/main.js"></script>
+        <script src="js_assets/form-validation.js"></script>
+        <script src="js_assets/accordion.js"></script>
+        <script src="js_assets/slider.js"></script>
+        <script src="js_assets/map.js"></script>
+        <script src="js_assets/slider.js"></script>
+        <script src="js_assets/search.js"></script>
+
+
+    </body>
+
+    </html>
